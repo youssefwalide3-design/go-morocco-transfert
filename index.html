@@ -439,12 +439,13 @@
 <input type="hidden" name="_captcha" value="false">
 
       <div class="form-grid">
-        <div class="field"><label>Pickup Location</label><input type="text" placeholder="e.g. Marrakech Menara Airport" required></div>
-        <div class="field"><label>Drop-off Location</label><input type="text" placeholder="e.g. Riad in the Medina" required></div>
-        <div class="field"><label>Date</label><input type="date" required></div>
-        <div class="field"><label>Time</label><input type="time" required></div>
-        <div class="field"><label>Passengers</label><input type="number" min="1" placeholder="2" required></div>
-        <div class="field"><label>Luggage</label><input type="number" min="0" placeholder="2" required></div>
+            <div class="field"><label>Pickup Location</label><input type="text" name="pickup" placeholder="e.g. Marrakech Menara Airport" required></div>
+    <div class="field"><label>Drop-off Location</label><input type="text" name="dropoff" placeholder="e.g. Riad in the Medina" required></div>
+    <div class="field"><label>Date</label><input type="date" name="date" required></div>
+    <div class="field"><label>Time</label><input type="time" name="time" required></div>
+    <div class="field"><label>Passengers</label><input type="number" name="passengers" min="1" placeholder="2" required></div>
+    <div class="field"><label>Luggage</label><input type="number" name="luggage" min="0" placeholder="2" required></div>
+
         <div class="field"><label>Service Type</label>
           <select>
             <option>Airport Transfer</option>
